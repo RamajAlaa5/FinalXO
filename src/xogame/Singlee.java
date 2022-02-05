@@ -1,0 +1,422 @@
+package xogame;
+
+import javafx.scene.Cursor;
+import javafx.scene.control.Button;
+import javafx.scene.control.DialogPane;
+import javafx.scene.control.Label;
+import javafx.scene.control.ToggleButton;
+import javafx.scene.effect.InnerShadow;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.Pane;
+import static javafx.scene.layout.Region.USE_PREF_SIZE;
+import javafx.scene.media.MediaView;
+import javafx.scene.text.Font;
+import javafx.scene.shape.Line;
+
+public class Singlee extends AnchorPane {
+
+    protected final ImageView imageView;
+    protected final BorderPane borderPane;
+    protected final Pane pane;
+    protected final ImageView imageView0;
+    protected final Pane pane0;
+    protected final Button Back;
+    protected final InnerShadow innerShadow;
+    protected final AnchorPane anchorPane;
+    protected final Label label;
+    protected final Label label0;
+    protected final Label scorex;
+    protected final Label label1;
+    protected final Label label2;
+    protected final Label scoreo;
+    protected final Pane pane1;
+    protected final DialogPane PopUpPane;
+    protected final AnchorPane anchorPane0;
+    protected final ImageView imageView1;
+    protected final ImageView imageView2;
+    protected final ImageView imageView3;
+    protected final ImageView imageView4;
+    protected final Button Buttons[]=new Button[9];
+    protected final Pane pane2;
+    protected final MediaView mediaView;
+    
+    protected final Button yesBtn;
+    protected final Button noBtn;
+    protected final Line line;
+    protected final Line line0;
+    protected final Line line1;
+    protected final Line line2;
+    //protected final Pane pane2;
+    
+
+    public Singlee() {
+
+        imageView = new ImageView();
+        borderPane = new BorderPane();
+        pane = new Pane();
+        imageView0 = new ImageView();
+        pane0 = new Pane();
+        Back = new Button();
+        innerShadow = new InnerShadow();
+        anchorPane = new AnchorPane();
+        label = new Label();
+        label0 = new Label();
+        scorex = new Label();
+        label1 = new Label();
+        label2 = new Label();
+        scoreo = new Label();
+        pane1 = new Pane();
+        PopUpPane = new DialogPane();
+        anchorPane0 = new AnchorPane();
+        imageView1 = new ImageView();
+        imageView2 = new ImageView();
+        imageView3 = new ImageView();
+        imageView4 = new ImageView();
+        Buttons[0] = new Button();
+        Buttons[8] = new Button();
+        Buttons[5] = new Button();
+        Buttons[4] = new Button();
+        Buttons[6] = new Button();
+        Buttons[3] = new Button();
+        Buttons[7] = new Button();
+        Buttons[1] = new Button();
+        Buttons[2] = new Button();
+        pane2 = new Pane();
+        mediaView = new MediaView();
+        yesBtn = new Button();
+        noBtn = new Button();
+        line = new Line();
+        line0 = new Line();
+        line1 = new Line();
+        line2 = new Line();
+
+        setMaxHeight(USE_PREF_SIZE);
+        setMaxWidth(USE_PREF_SIZE);
+        setMinHeight(USE_PREF_SIZE);
+        setMinWidth(USE_PREF_SIZE);
+        setPrefHeight(412.0);
+        setPrefWidth(626.0);
+        setStyle("-fx-background-color: trasparent;");
+
+        imageView.setFitHeight(433.0);
+        imageView.setFitWidth(655.0);
+        imageView.setLayoutX(-12.0);
+        imageView.setLayoutY(-9.0);
+        imageView.setPickOnBounds(true);
+        imageView.setSmooth(false);
+        imageView.setImage(new Image(getClass().getResource("/img/photo-1566305977571-5666677c6e98.jpg").toExternalForm()));
+
+        borderPane.setLayoutX(-6.0);
+        borderPane.setPrefHeight(400.0);
+        borderPane.setPrefWidth(608.0);
+
+        BorderPane.setAlignment(pane, javafx.geometry.Pos.CENTER);
+        pane.setPrefHeight(222.0);
+        pane.setPrefWidth(101.0);
+
+        imageView0.setFitHeight(60.0);
+        imageView0.setFitWidth(51.0);
+        imageView0.setLayoutX(25.0);
+        imageView0.setLayoutY(161.0);
+        imageView0.setPickOnBounds(true);
+       // imageView0.setImage(new Image(getClass().getResource("/img/images.png").toExternalForm()));
+        borderPane.setRight(pane);
+
+        BorderPane.setAlignment(pane0, javafx.geometry.Pos.CENTER);
+        pane0.setPrefHeight(81.0);
+        pane0.setPrefWidth(601.0);
+
+        Back.setLayoutX(462.0);
+        Back.setLayoutY(-21.0);
+        Back.setMnemonicParsing(false);
+        Back.setPrefHeight(48.0);
+        Back.setPrefWidth(132.0);
+        Back.setStyle("-fx-background-color: none;");
+        Back.setText("Back");
+        Back.setTextFill(javafx.scene.paint.Color.valueOf("#7c541c"));
+        Back.setFont(new Font("System Bold", 30.0));
+
+        
+        borderPane.setBottom(pane0);
+
+        BorderPane.setAlignment(anchorPane, javafx.geometry.Pos.CENTER);
+        anchorPane.setPrefHeight(100.0);
+        anchorPane.setPrefWidth(646.0);
+
+        label.setLayoutX(334.0);
+        label.setLayoutY(47.0);
+        label.setPrefHeight(63.0);
+        label.setPrefWidth(153.0);
+        label.setText("Computer");
+        label.setTextFill(javafx.scene.paint.Color.valueOf("#7c541c"));
+        label.setFont(new Font("System Bold", 24.0));
+
+        label0.setLayoutX(211.0);
+        label0.setLayoutY(69.0);
+        label0.setText("X");
+        label0.setFont(new Font("System Bold", 18.0));
+
+        scorex.setLayoutX(247.0);
+        scorex.setLayoutY(61.0);
+        scorex.setPrefHeight(36.0);
+        scorex.setPrefWidth(50.0);
+        scorex.setText("0");
+        scorex.setTextFill(javafx.scene.paint.Color.valueOf("#7c541c"));
+        scorex.setFont(new Font("System Bold",28.0));
+
+        label1.setLayoutX(482.0);
+        label1.setLayoutY(69.0);
+        label1.setText("O");
+        label1.setFont(new Font("System Bold", 17.0));
+
+        label2.setLayoutX(89.0);
+        label2.setLayoutY(48.0);
+        label2.setPrefHeight(66.0);
+        label2.setPrefWidth(115.0);
+        label2.setText("You");
+        label2.setTextFill(javafx.scene.paint.Color.valueOf("#7c541c"));
+        label2.setFont(new Font("System Bold", 28.0));
+
+        scoreo.setLayoutX(522.0);
+        scoreo.setLayoutY(59.0);
+        scoreo.setPrefHeight(20.0);
+        scoreo.setPrefWidth(32.0);
+        scoreo.setText("0");
+        scoreo.setTextFill(javafx.scene.paint.Color.valueOf("#964b00"));
+        scoreo.setFont(new Font("System Bold",28.0));
+        borderPane.setTop(anchorPane);
+
+        BorderPane.setAlignment(pane1, javafx.geometry.Pos.CENTER);
+        pane1.setPrefHeight(236.0);
+        pane1.setPrefWidth(378.0);
+
+        
+        PopUpPane.setLayoutX(90.0);
+        PopUpPane.setLayoutY(30.0);
+        PopUpPane.setMinHeight(USE_PREF_SIZE);
+        PopUpPane.setMinWidth(USE_PREF_SIZE);
+        PopUpPane.setPrefHeight(350.0);
+        PopUpPane.setPrefWidth(430.0);
+        PopUpPane.setVisible(false);
+        PopUpPane.setDisable(true);
+
+        anchorPane0.setLayoutX(47.0);
+        anchorPane0.setLayoutY(-6.0);
+        anchorPane0.setPrefHeight(246.0);
+        anchorPane0.setPrefWidth(309.0);
+
+        imageView1.setFitHeight(237.0);
+        imageView1.setFitWidth(126.0);
+        imageView1.setLayoutX(129.0);
+        imageView1.setLayoutY(-9.0);
+        imageView1.setPickOnBounds(true);
+        imageView1.setImage(new Image(getClass().getResource("/img/wooden-baton-stick-500x500.png").toExternalForm()));
+
+        imageView2.setFitHeight(235.0);
+        imageView2.setFitWidth(131.0);
+        imageView2.setLayoutX(47.0);
+        imageView2.setLayoutY(-4.0);
+        imageView2.setPickOnBounds(true);
+        imageView2.setImage(new Image(getClass().getResource("/img/jj.png").toExternalForm()));
+
+        imageView3.setFitHeight(129.0);
+        imageView3.setFitWidth(309.0);
+        imageView3.setPickOnBounds(true);
+        imageView3.setImage(new Image(getClass().getResource("/img/ss.png").toExternalForm()));
+
+        imageView4.setFitHeight(112.0);
+        imageView4.setFitWidth(311.0);
+        imageView4.setLayoutY(90.0);
+        imageView4.setPickOnBounds(true);
+        imageView4.setImage(new Image(getClass().getResource("/img/kl.png").toExternalForm()));
+        
+        yesBtn.setLayoutX(20.0);
+        yesBtn.setLayoutY(450.0);
+        yesBtn.setMnemonicParsing(false);
+        
+        yesBtn.setText("Yes");
+        yesBtn.setFont(new Font(18.0));
+
+        noBtn.setLayoutX(420.0);
+        noBtn.setLayoutY(450.0);
+        noBtn.setMnemonicParsing(false);
+       
+        noBtn.setText("No");
+        noBtn.setFont(new Font(18.0));
+
+        Buttons[0].setLayoutX(2.0);
+        Buttons[0].setLayoutY(1.0);
+        Buttons[0].setMnemonicParsing(false);
+        Buttons[0].setPrefHeight(60.0);
+        Buttons[0].setPrefWidth(100.0);
+        Buttons[0].setStyle("-fx-background-color: none;");
+        Buttons[0].setTextFill(javafx.scene.paint.Color.valueOf("#964b00"));
+        Buttons[0].setFont(new Font("Forte", 40.0));
+
+        Buttons[8].setLayoutX(205.0);
+        Buttons[8].setLayoutY(150.0);
+        Buttons[8].setMnemonicParsing(false);
+        Buttons[8].setPrefHeight(60.0);
+        Buttons[8].setPrefWidth(100.0);
+        Buttons[8].setStyle("-fx-background-color: none;");
+        Buttons[8].setTextFill(javafx.scene.paint.Color.valueOf("#964b00"));
+        Buttons[8].setFont(new Font("Forte", 40.0));
+
+        Buttons[5].setLayoutX(205.0);
+        Buttons[5].setLayoutY(78.0);
+        Buttons[5].setMnemonicParsing(false);
+        Buttons[5].setPrefHeight(60.0);
+        Buttons[5].setPrefWidth(100.0);
+        Buttons[5].setStyle("-fx-background-color: none;");
+        Buttons[5].setTextFill(javafx.scene.paint.Color.valueOf("#964b00"));
+        Buttons[5].setFont(new Font("Forte", 40.0));
+
+        Buttons[4].setLayoutX(104.0);
+        Buttons[4].setLayoutY(76.0);
+        Buttons[4].setMnemonicParsing(false);
+        Buttons[4].setPrefHeight(60.0);
+        Buttons[4].setPrefWidth(100.0);
+        Buttons[4].setStyle("-fx-background-color: none;");
+        Buttons[4].setTextFill(javafx.scene.paint.Color.valueOf("#964b00"));
+        Buttons[4].setFont(new Font("Forte", 40.0));
+
+        Buttons[6].setLayoutX(1.0);
+        Buttons[6].setLayoutY(153.0);
+        Buttons[6].setMnemonicParsing(false);
+        Buttons[6].setPrefHeight(60.0);
+        Buttons[6].setPrefWidth(100.0);
+        Buttons[6].setStyle("-fx-background-color: none;");
+        Buttons[6].setTextFill(javafx.scene.paint.Color.valueOf("#964b00"));
+        Buttons[6].setFont(new Font("Forte", 40.0));
+
+        Buttons[3].setLayoutX(4.0);
+        Buttons[3].setLayoutY(78.0);
+        Buttons[3].setMnemonicParsing(false);
+        Buttons[3].setPrefHeight(60.0);
+        Buttons[3].setPrefWidth(100.0);
+        Buttons[3].setStyle("-fx-background-color: none;");
+        Buttons[3].setTextFill(javafx.scene.paint.Color.valueOf("#964b00"));
+        Buttons[3].setFont(new Font("Forte", 40.0));
+
+        Buttons[7].setLayoutX(104.0);
+        Buttons[7].setLayoutY(154.0);
+        Buttons[7].setMnemonicParsing(false);
+        Buttons[7].setPrefHeight(60.0);
+        Buttons[7].setPrefWidth(100.0);
+        Buttons[7].setStyle("-fx-background-color: none;");
+        Buttons[7].setTextFill(javafx.scene.paint.Color.valueOf("#964b00"));
+        Buttons[7].setFont(new Font("Forte", 40.0));
+
+        Buttons[1].setLayoutX(104.0);
+        Buttons[1].setLayoutY(1.0);
+        Buttons[1].setMnemonicParsing(false);
+        Buttons[1].setPrefHeight(60.0);
+        Buttons[1].setPrefWidth(100.0);
+        Buttons[1].setStyle("-fx-background-color: none;");
+        Buttons[1].setTextFill(javafx.scene.paint.Color.valueOf("#964b00"));
+        Buttons[1].setFont(new Font("Forte", 40.0));
+
+        Buttons[2].setLayoutX(205.0);
+        Buttons[2].setLayoutY(1.0);
+        Buttons[2].setMnemonicParsing(false);
+        Buttons[2].setPrefHeight(60.0);
+        Buttons[2].setPrefWidth(100.0);
+        Buttons[2].setStyle("-fx-background-color: none;");
+        Buttons[2].setTextFill(javafx.scene.paint.Color.valueOf("#964b00"));
+        Buttons[2].setFont(new Font("Forte", 40.0));
+        borderPane.setCenter(pane1);
+ 
+
+         line.setEndX(100.0);
+        line.setFill(javafx.scene.paint.Color.BLACK);
+        line.setLayoutX(1.0);
+        line.setLayoutY(5.0);
+        line.setStartX(100.0);
+        line.setStartY(240.0);
+        line.setStrokeWidth(3.0);
+
+        line0.setEndX(100.0);
+        line0.setFill(javafx.scene.paint.Color.BLACK);
+        line0.setLayoutX(105.0);
+        line0.setLayoutY(5.0);
+        line0.setStartX(100.0);
+        line0.setStartY(240.0);
+        line0.setStrokeWidth(3.0);
+
+        line1.setEndX(291.0);
+        line1.setEndY(240.0);
+        line1.setFill(javafx.scene.paint.Color.BLACK);
+        line1.setLayoutX(10.0);
+        line1.setLayoutY(-160.0);
+        line1.setStartX(-11.0);
+        line1.setStartY(241.5);
+        line1.setStrokeWidth(3.0);
+
+        line2.setEndX(291.0);
+        line2.setEndY(240.0);
+        line2.setFill(javafx.scene.paint.Color.BLACK);
+        line2.setLayoutX(16.0);
+        line2.setLayoutY(-72.0);
+        line2.setStartX(-11.0);
+        line2.setStartY(241.5);
+        line2.setStrokeWidth(3.0);
+        borderPane.setCenter(pane1);
+       
+
+        BorderPane.setAlignment(pane2, javafx.geometry.Pos.CENTER);
+        pane2.setPrefHeight(236.0);
+        pane2.setPrefWidth(114.0);
+        borderPane.setLeft(pane2);
+        
+        this.setLeftAnchor(mediaView, 91.0);
+        this.setRightAnchor(mediaView, 80.0);
+        this.setTopAnchor(mediaView, 80.0);
+        mediaView.setFitHeight(300.0);
+        mediaView.setFitWidth(430.0);
+        mediaView.setLayoutX(0.0);
+        mediaView.setLayoutY(0.0);
+        mediaView.setPreserveRatio(false);
+        mediaView.setCursor(Cursor.DEFAULT);
+
+        
+
+        
+        getChildren().add(imageView);
+        pane.getChildren().add(imageView0);
+        pane0.getChildren().add(Back);
+        anchorPane.getChildren().add(label);
+        anchorPane.getChildren().add(label0);
+        anchorPane.getChildren().add(scorex);
+        anchorPane.getChildren().add(label1);
+        anchorPane.getChildren().add(label2);
+        anchorPane.getChildren().add(scoreo);
+        pane1.getChildren().add(PopUpPane);
+        anchorPane0.getChildren().add(imageView1);
+        anchorPane0.getChildren().add(imageView2);
+        anchorPane0.getChildren().add(imageView3);
+        anchorPane0.getChildren().add(imageView4);
+        anchorPane0.getChildren().add(Buttons[0]);
+        anchorPane0.getChildren().add(Buttons[8]);
+        anchorPane0.getChildren().add(Buttons[5]);
+        anchorPane0.getChildren().add(Buttons[4]);
+        anchorPane0.getChildren().add(Buttons[6]);
+        anchorPane0.getChildren().add(Buttons[3]);
+        anchorPane0.getChildren().add(Buttons[7]);
+        anchorPane0.getChildren().add(Buttons[1]);
+        anchorPane0.getChildren().add(Buttons[2]);
+        pane1.getChildren().add(anchorPane0);
+        PopUpPane.getChildren().add(yesBtn);
+        PopUpPane.getChildren().add(noBtn);
+        getChildren().add(PopUpPane);
+        PopUpPane.getChildren().add(mediaView);
+        getChildren().add(borderPane);
+        
+        
+        
+        new Controller(Buttons,scorex,scoreo,PopUpPane,mediaView,borderPane,Back);
+    }
+}
+

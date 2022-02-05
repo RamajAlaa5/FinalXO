@@ -1,0 +1,33 @@
+
+#btn{
+   
+    -fx-background-color :#CF7215 ;
+    
+  
+}
+
+
+
+#ServerDashboard{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+
+#services{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+
+#TableList{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}

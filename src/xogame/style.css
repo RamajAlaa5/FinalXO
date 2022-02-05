@@ -1,0 +1,84 @@
+
+
+#AnchorPane{
+    -fx-background-image: url("il_1140xN.3089571779_tos1.jpg");
+    
+}
+#signup{
+    -fx-background-image: url("il_1140xN.3089571779_tos1.jpg");
+}
+#playgroung{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+#bordergrid{
+    -fx-border-color: black;
+}
+#singleplayer{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+#singleplayer2{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+#background{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+#background2{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+#background3{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+} 
+#background4{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+#background5{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+#background6{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+
+#ippage{
+    -fx-background-image:url("photo-1566305977571-5666677c6e98.jpg");
+    -fx-background-size: contain;
+    fx-background-repeat: no-repeat;
+    fx-background-position: center;
+    -fx-background-size:100% 100%;
+}
+
